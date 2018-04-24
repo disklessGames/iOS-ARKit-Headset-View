@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ARKit Headset View.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>HeadSetKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5771C629207D4DA300278211</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5771C63A207D5CDD00278211</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5771C642207D5CDD00278211</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AED907241F110C3000063B26</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

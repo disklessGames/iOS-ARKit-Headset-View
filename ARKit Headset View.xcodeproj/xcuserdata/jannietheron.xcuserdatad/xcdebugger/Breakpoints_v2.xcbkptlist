@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HeadSetKit/HeadSetViewController.swift"
+            timestampString = "545562266.011611"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "HeadsetViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HeadSetKit.HeadsetViewController.mainScene.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.ARSCNView&gt;"
+                  moduleName = "HeadSetKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jannietheron/code/iOS-ARKit-Headset-View/HeadSetKit/HeadSetViewController.swift"
+                  timestampString = "545124029.003925"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HeadSetKit.HeadsetViewController.mainScene.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.ARSCNView&gt;"
+                  moduleName = "HeadSetKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jannietheron/code/iOS-ARKit-Headset-View/HeadSetKit/HeadSetViewController.swift"
+                  timestampString = "545124029.009618"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HeadSetKit.HeadsetViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; HeadSetKit.HeadsetViewController"
+                  moduleName = "HeadSetKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jannietheron/code/iOS-ARKit-Headset-View/HeadSetKit/HeadSetViewController.swift"
+                  timestampString = "545124029.013621"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "87">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HeadSetKit.HeadsetViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;HeadSetKit.HeadsetViewController&gt;"
+                  moduleName = "HeadSetKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jannietheron/code/iOS-ARKit-Headset-View/HeadSetKit/HeadSetViewController.swift"
+                  timestampString = "545124029.016546"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "57">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HeadSetKit/HeadSetViewController.swift"
+            timestampString = "545562266.011677"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "set(scene:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HeadSetKit/HeadSetViewController.swift"
+            timestampString = "545562266.011734"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

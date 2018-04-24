@@ -7,40 +7,165 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5722403620848B2A00FB3E1D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722403520848B2A00FB3E1D /* Player.swift */; };
+		5722403820848B3300FB3E1D /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722403720848B3300FB3E1D /* Plane.swift */; };
+		5722403A20848CA000FB3E1D /* SCNVector+Operands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722403920848CA000FB3E1D /* SCNVector+Operands.swift */; };
+		5722403C20848CD700FB3E1D /* MouseBallScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722403B20848CD700FB3E1D /* MouseBallScene.swift */; };
+		5722403F20848F9400FB3E1D /* JetFirghterScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722403E20848F9400FB3E1D /* JetFirghterScene.swift */; };
+		5722404120849E8E00FB3E1D /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 5722404020849E8E00FB3E1D /* grid.png */; };
+		5771C644207D5CDD00278211 /* HeadSetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5771C63B207D5CDD00278211 /* HeadSetKit.framework */; };
+		5771C64B207D5CDD00278211 /* HeadSetKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5771C64A207D5CDD00278211 /* HeadSetKitTests.swift */; };
+		5771C64D207D5CDD00278211 /* HeadSetKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5771C63D207D5CDD00278211 /* HeadSetKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5771C650207D5CDD00278211 /* HeadSetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5771C63B207D5CDD00278211 /* HeadSetKit.framework */; };
+		5771C651207D5CDD00278211 /* HeadSetKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5771C63B207D5CDD00278211 /* HeadSetKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5771C659207D5D7100278211 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5771C634207D4DC600278211 /* ViewControllerTests.swift */; };
+		5771C65A207D603500278211 /* HeadSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED9072C1F110C3000063B26 /* HeadSetViewController.swift */; };
+		5771C65C207D610200278211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5771C65B207D610200278211 /* Main.storyboard */; };
+		5771C660207D639D00278211 /* SceneList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5771C65F207D639D00278211 /* SceneList.swift */; };
+		5771C662207D708B00278211 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5771C661207D708B00278211 /* art.scnassets */; };
+		5771C665207DEE3F00278211 /* Headset.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5771C664207DEE3F00278211 /* Headset.storyboard */; };
 		AED907291F110C3000063B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED907281F110C3000063B26 /* AppDelegate.swift */; };
-		AED9072B1F110C3000063B26 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AED9072A1F110C3000063B26 /* art.scnassets */; };
-		AED9072D1F110C3000063B26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED9072C1F110C3000063B26 /* ViewController.swift */; };
-		AED907301F110C3000063B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED9072E1F110C3000063B26 /* Main.storyboard */; };
 		AED907321F110C3000063B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED907311F110C3000063B26 /* Assets.xcassets */; };
 		AED907351F110C3000063B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED907331F110C3000063B26 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5771C645207D5CDD00278211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AED9071D1F110C3000063B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5771C63A207D5CDD00278211;
+			remoteInfo = HeadSetKit;
+		};
+		5771C647207D5CDD00278211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AED9071D1F110C3000063B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AED907241F110C3000063B26;
+			remoteInfo = "ARKit Headset View";
+		};
+		5771C64E207D5CDD00278211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AED9071D1F110C3000063B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5771C63A207D5CDD00278211;
+			remoteInfo = HeadSetKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5771C655207D5CDD00278211 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5771C651207D5CDD00278211 /* HeadSetKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5722403520848B2A00FB3E1D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		5722403720848B3300FB3E1D /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		5722403920848CA000FB3E1D /* SCNVector+Operands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNVector+Operands.swift"; sourceTree = "<group>"; };
+		5722403B20848CD700FB3E1D /* MouseBallScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseBallScene.swift; sourceTree = "<group>"; };
+		5722403E20848F9400FB3E1D /* JetFirghterScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetFirghterScene.swift; sourceTree = "<group>"; };
+		5722404020849E8E00FB3E1D /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		5771C634207D4DC600278211 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		5771C63B207D5CDD00278211 /* HeadSetKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HeadSetKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5771C63D207D5CDD00278211 /* HeadSetKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadSetKit.h; sourceTree = "<group>"; };
+		5771C63E207D5CDD00278211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5771C643207D5CDD00278211 /* HeadSetKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadSetKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5771C64A207D5CDD00278211 /* HeadSetKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadSetKitTests.swift; sourceTree = "<group>"; };
+		5771C64C207D5CDD00278211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5771C65B207D610200278211 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5771C65F207D639D00278211 /* SceneList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneList.swift; sourceTree = "<group>"; };
+		5771C661207D708B00278211 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		5771C664207DEE3F00278211 /* Headset.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Headset.storyboard; sourceTree = "<group>"; };
 		AED907251F110C3000063B26 /* ARKit Headset View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit Headset View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED907281F110C3000063B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AED9072A1F110C3000063B26 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		AED9072C1F110C3000063B26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AED9072F1F110C3000063B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AED9072C1F110C3000063B26 /* HeadSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadSetViewController.swift; sourceTree = "<group>"; };
 		AED907311F110C3000063B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AED907341F110C3000063B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AED907361F110C3000063B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AED907221F110C3000063B26 /* Frameworks */ = {
+		5771C637207D5CDD00278211 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5771C640207D5CDD00278211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5771C644207D5CDD00278211 /* HeadSetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED907221F110C3000063B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5771C650207D5CDD00278211 /* HeadSetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5722403420848B1600FB3E1D /* Mouseball */ = {
+			isa = PBXGroup;
+			children = (
+				5722403720848B3300FB3E1D /* Plane.swift */,
+				5722403520848B2A00FB3E1D /* Player.swift */,
+				5722403B20848CD700FB3E1D /* MouseBallScene.swift */,
+				5722404020849E8E00FB3E1D /* grid.png */,
+			);
+			path = Mouseball;
+			sourceTree = "<group>";
+		};
+		5722403D20848F7700FB3E1D /* JetFighter */ = {
+			isa = PBXGroup;
+			children = (
+				5722403E20848F9400FB3E1D /* JetFirghterScene.swift */,
+			);
+			path = JetFighter;
+			sourceTree = "<group>";
+		};
+		5771C63C207D5CDD00278211 /* HeadSetKit */ = {
+			isa = PBXGroup;
+			children = (
+				AED9072C1F110C3000063B26 /* HeadSetViewController.swift */,
+				5771C63D207D5CDD00278211 /* HeadSetKit.h */,
+				5771C63E207D5CDD00278211 /* Info.plist */,
+				5771C664207DEE3F00278211 /* Headset.storyboard */,
+			);
+			path = HeadSetKit;
+			sourceTree = "<group>";
+		};
+		5771C649207D5CDD00278211 /* HeadSetKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				5771C64A207D5CDD00278211 /* HeadSetKitTests.swift */,
+				5771C64C207D5CDD00278211 /* Info.plist */,
+				5771C634207D4DC600278211 /* ViewControllerTests.swift */,
+			);
+			path = HeadSetKitTests;
+			sourceTree = "<group>";
+		};
 		AED9071C1F110C3000063B26 = {
 			isa = PBXGroup;
 			children = (
 				AED907271F110C3000063B26 /* ARKit Headset View */,
+				5771C63C207D5CDD00278211 /* HeadSetKit */,
+				5771C649207D5CDD00278211 /* HeadSetKitTests */,
 				AED907261F110C3000063B26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				AED907251F110C3000063B26 /* ARKit Headset View.app */,
+				5771C63B207D5CDD00278211 /* HeadSetKit.framework */,
+				5771C643207D5CDD00278211 /* HeadSetKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,20 +183,71 @@
 		AED907271F110C3000063B26 /* ARKit Headset View */ = {
 			isa = PBXGroup;
 			children = (
+				5722403D20848F7700FB3E1D /* JetFighter */,
+				5722403420848B1600FB3E1D /* Mouseball */,
+				5771C661207D708B00278211 /* art.scnassets */,
 				AED907281F110C3000063B26 /* AppDelegate.swift */,
-				AED9072A1F110C3000063B26 /* art.scnassets */,
-				AED9072C1F110C3000063B26 /* ViewController.swift */,
-				AED9072E1F110C3000063B26 /* Main.storyboard */,
 				AED907311F110C3000063B26 /* Assets.xcassets */,
 				AED907331F110C3000063B26 /* LaunchScreen.storyboard */,
 				AED907361F110C3000063B26 /* Info.plist */,
+				5771C65B207D610200278211 /* Main.storyboard */,
+				5771C65F207D639D00278211 /* SceneList.swift */,
+				5722403920848CA000FB3E1D /* SCNVector+Operands.swift */,
 			);
 			path = "ARKit Headset View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		5771C638207D5CDD00278211 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5771C64D207D5CDD00278211 /* HeadSetKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		5771C63A207D5CDD00278211 /* HeadSetKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5771C652207D5CDD00278211 /* Build configuration list for PBXNativeTarget "HeadSetKit" */;
+			buildPhases = (
+				5771C636207D5CDD00278211 /* Sources */,
+				5771C637207D5CDD00278211 /* Frameworks */,
+				5771C638207D5CDD00278211 /* Headers */,
+				5771C639207D5CDD00278211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeadSetKit;
+			productName = HeadSetKit;
+			productReference = 5771C63B207D5CDD00278211 /* HeadSetKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5771C642207D5CDD00278211 /* HeadSetKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5771C656207D5CDD00278211 /* Build configuration list for PBXNativeTarget "HeadSetKitTests" */;
+			buildPhases = (
+				5771C63F207D5CDD00278211 /* Sources */,
+				5771C640207D5CDD00278211 /* Frameworks */,
+				5771C641207D5CDD00278211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5771C646207D5CDD00278211 /* PBXTargetDependency */,
+				5771C648207D5CDD00278211 /* PBXTargetDependency */,
+			);
+			name = HeadSetKitTests;
+			productName = HeadSetKitTests;
+			productReference = 5771C643207D5CDD00278211 /* HeadSetKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AED907241F110C3000063B26 /* ARKit Headset View */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AED907391F110C3000063B26 /* Build configuration list for PBXNativeTarget "ARKit Headset View" */;
@@ -77,10 +255,12 @@
 				AED907211F110C3000063B26 /* Sources */,
 				AED907221F110C3000063B26 /* Frameworks */,
 				AED907231F110C3000063B26 /* Resources */,
+				5771C655207D5CDD00278211 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5771C64F207D5CDD00278211 /* PBXTargetDependency */,
 			);
 			name = "ARKit Headset View";
 			productName = "ARKit Headset View";
@@ -93,10 +273,19 @@
 		AED9071D1F110C3000063B26 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0920;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = CompanyName;
 				TargetAttributes = {
+					5771C63A207D5CDD00278211 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+					5771C642207D5CDD00278211 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AED907241F110C3000063B26;
+					};
 					AED907241F110C3000063B26 = {
 						CreatedOnToolsVersion = 9.0;
 					};
@@ -116,45 +305,95 @@
 			projectRoot = "";
 			targets = (
 				AED907241F110C3000063B26 /* ARKit Headset View */,
+				5771C63A207D5CDD00278211 /* HeadSetKit */,
+				5771C642207D5CDD00278211 /* HeadSetKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5771C639207D5CDD00278211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5771C665207DEE3F00278211 /* Headset.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5771C641207D5CDD00278211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AED907231F110C3000063B26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED9072B1F110C3000063B26 /* art.scnassets in Resources */,
+				5771C65C207D610200278211 /* Main.storyboard in Resources */,
+				5722404120849E8E00FB3E1D /* grid.png in Resources */,
 				AED907351F110C3000063B26 /* LaunchScreen.storyboard in Resources */,
+				5771C662207D708B00278211 /* art.scnassets in Resources */,
 				AED907321F110C3000063B26 /* Assets.xcassets in Resources */,
-				AED907301F110C3000063B26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5771C636207D5CDD00278211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5771C65A207D603500278211 /* HeadSetViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5771C63F207D5CDD00278211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5771C659207D5D7100278211 /* ViewControllerTests.swift in Sources */,
+				5771C64B207D5CDD00278211 /* HeadSetKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AED907211F110C3000063B26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED9072D1F110C3000063B26 /* ViewController.swift in Sources */,
+				5771C660207D639D00278211 /* SceneList.swift in Sources */,
+				5722403C20848CD700FB3E1D /* MouseBallScene.swift in Sources */,
+				5722403F20848F9400FB3E1D /* JetFirghterScene.swift in Sources */,
+				5722403620848B2A00FB3E1D /* Player.swift in Sources */,
+				5722403A20848CA000FB3E1D /* SCNVector+Operands.swift in Sources */,
+				5722403820848B3300FB3E1D /* Plane.swift in Sources */,
 				AED907291F110C3000063B26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		AED9072E1F110C3000063B26 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AED9072F1F110C3000063B26 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		5771C646207D5CDD00278211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5771C63A207D5CDD00278211 /* HeadSetKit */;
+			targetProxy = 5771C645207D5CDD00278211 /* PBXContainerItemProxy */;
 		};
+		5771C648207D5CDD00278211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AED907241F110C3000063B26 /* ARKit Headset View */;
+			targetProxy = 5771C647207D5CDD00278211 /* PBXContainerItemProxy */;
+		};
+		5771C64F207D5CDD00278211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5771C63A207D5CDD00278211 /* HeadSetKit */;
+			targetProxy = 5771C64E207D5CDD00278211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		AED907331F110C3000063B26 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -166,6 +405,90 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5771C653207D5CDD00278211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U2R67Y7NJT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HeadSetKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.flatcircle.HeadSetKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5771C654207D5CDD00278211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U2R67Y7NJT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HeadSetKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.flatcircle.HeadSetKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5771C657207D5CDD00278211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CG6B72D3X4;
+				INFOPLIST_FILE = HeadSetKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.flatcircle.HeadSetKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit Headset View.app/ARKit Headset View";
+			};
+			name = Debug;
+		};
+		5771C658207D5CDD00278211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CG6B72D3X4;
+				INFOPLIST_FILE = HeadSetKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.flatcircle.HeadSetKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit Headset View.app/ARKit Headset View";
+			};
+			name = Release;
+		};
 		AED907371F110C3000063B26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -180,6 +503,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -187,6 +511,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -214,7 +539,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -237,6 +562,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -244,6 +570,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -265,7 +592,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -276,9 +603,11 @@
 		AED9073A1F110C3000063B26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3SL39F2287;
+				DEVELOPMENT_TEAM = U2R67Y7NJT;
 				INFOPLIST_FILE = "ARKit Headset View/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompanyname.ARKit-Headset-View";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,9 +619,11 @@
 		AED9073B1F110C3000063B26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3SL39F2287;
+				DEVELOPMENT_TEAM = U2R67Y7NJT;
 				INFOPLIST_FILE = "ARKit Headset View/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompanyname.ARKit-Headset-View";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +635,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5771C652207D5CDD00278211 /* Build configuration list for PBXNativeTarget "HeadSetKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5771C653207D5CDD00278211 /* Debug */,
+				5771C654207D5CDD00278211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5771C656207D5CDD00278211 /* Build configuration list for PBXNativeTarget "HeadSetKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5771C657207D5CDD00278211 /* Debug */,
+				5771C658207D5CDD00278211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AED907201F110C3000063B26 /* Build configuration list for PBXProject "ARKit Headset View" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
